@@ -1,5 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const One = React.createElement('div', {},'HEllo');
-ReactDOM.render(One, document.getElementById('root'))
+function Hello (){
+  return(
+    <h1>hello</h1>
+  )
+}
+const One = React.createElement('div', {},'One'); 
+
+
+ReactDOM.render(One, document.getElementById('layout'))
+
+ReactDOM.render(<Hello/>, document.getElementById("frist"));
