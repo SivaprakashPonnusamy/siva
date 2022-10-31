@@ -1,0 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+const One = React.createElement('div', {},'HEllo');
+ReactDOM.render(One, document.getElementById('root'))
